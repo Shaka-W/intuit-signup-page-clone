@@ -43,7 +43,7 @@
     </div>
   </div>
   <div class="container">
-    <form action="#">
+    <form>
       <header>
         <h2 class="title">Create an Intuit account</h2>
         <p>One account for everything Intuit, including Mint. <br> <a href="#">Learn More</a></p>
@@ -51,7 +51,7 @@
       <div class="form-wrapper">
         <div class="form-group">
           <label for="email">Email Address</label>
-          <input type="email" id="email">
+          <input type="email" id="email" required>
         </div>
         <div class="form-group">
           <label for="phone">Phone (recommended)</label>
@@ -61,13 +61,13 @@
         <div class="form-group">
           <label for="password">Password</label>
           <div class="lock-icon-wrapper">
-            <input type="password" id="password">
+            <input type="password" id="password" required>
             <span class="material-icons">lock_open</span>
           </div>
         </div>
         <div class="button-container">
           <div class="lock-icon-wrapper">
-            <button type="button" class="btn">Create Account</button>
+            <button class="btn-submit" type="submit" value="Create Account">Create Account</button>
             <span class="material-icons">lock</span>
           </div>
         </div>
@@ -75,7 +75,6 @@
           <a href="#">Terms</a> and have read and acknowledge our <a href="#">Global Privacy Statement</a>.
         </p>
       </div>
-      
       <div class="form-bottom">
         <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.</p>
       </div>
@@ -95,5 +94,6 @@
    </ul>
    <p>&copy; 2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc. <br> Terms and conditions, features, support, pricing, and service options subject to change without notice. </p>
   </footer>
+  <script src="main.js"></script>
 </body>
 </html>
