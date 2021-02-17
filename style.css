@@ -52,10 +52,10 @@
     width: 100%;
     padding: 1rem;
     border-radius: 5px;
-    cursor: pointer;
     color: #fff;
     font-size: 1rem;
     font-weight: bold;
+    cursor: pointer;
   }
   
   /* Global */
@@ -151,7 +151,7 @@
     align-items: center;
   }
   
-  .lock-icon-wrapper .material-icons {
+  .form-group:nth-of-type(3) .lock-icon-wrapper .material-icons {
     position: absolute;
     right: 0px;
   }
